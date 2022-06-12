@@ -8,6 +8,8 @@ int main() {
 
     //taking input
     scanf("%d", &input_amount);
+
+    printf("%d\n", input_amount);
     if(input_amount > 0 && input_amount < 1000000) {
         //processing data
         note100 = input_amount / 100;
@@ -33,6 +35,6 @@ int main() {
         printf("%d nota(s) de R$ 2,00\n", note2);
         printf("%d nota(s) de R$ 1,00\n", note1);
     }
-    
+
     return 0;
 }

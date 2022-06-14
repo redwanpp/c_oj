@@ -1,1 +1,0 @@
- printf("%d\n", input_amount);

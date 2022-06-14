@@ -15,7 +15,10 @@ int main() {
     else if (start_hr > end_hr) {
         game_hr = (24 - start_hr) + end_hr;
     }
-    else if (start_hr == end_hr) {
+    else if (start_hr == end_hr && start_min < end_min) {
+        game_hr = 0;
+    }
+    else {
         game_hr = 24;
     }
 
